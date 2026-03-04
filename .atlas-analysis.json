@@ -1,0 +1,113 @@
+{
+  "projectType": "frontend",
+  "projectName": "CowSwap",
+  "projectDescription": "First trading interface built on CoW Protocol with gasless orders, MEV protection, and peer-to-peer settlement",
+  "theme": "palm",
+  "primaryColor": "#585858",
+  "lightColor": "#1e1e1e",
+  "darkColor": "#c6c6c6",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "quickstart"
+            ]
+          },
+          {
+            "group": "Core Features",
+            "pages": [
+              "features/swap",
+              "features/limit-orders",
+              "features/twap",
+              "features/bridge",
+              "features/hooks"
+            ]
+          },
+          {
+            "group": "Development",
+            "pages": [
+              "development/setup",
+              "development/architecture",
+              "development/module-structure",
+              "development/state-management",
+              "development/testing"
+            ]
+          },
+          {
+            "group": "Integration",
+            "pages": [
+              "integration/widget",
+              "integration/sdk",
+              "integration/analytics",
+              "integration/api-endpoints"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Components",
+        "groups": [
+          {
+            "group": "Trading Components",
+            "pages": [
+              "components/swap-widget",
+              "components/order-table",
+              "components/trade-flow",
+              "components/token-selector"
+            ]
+          },
+          {
+            "group": "Shared Libraries",
+            "pages": [
+              "components/ui-library",
+              "components/common-hooks",
+              "components/wallet-provider"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Contributing",
+        "groups": [
+          {
+            "group": "Guidelines",
+            "pages": [
+              "contributing/overview",
+              "contributing/code-standards",
+              "contributing/pr-workflow",
+              "contributing/agents-guide"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Gasless token swaps with MEV protection",
+    "Limit orders with customizable execution",
+    "Time-weighted average price (TWAP) orders",
+    "Cross-chain bridging integration",
+    "Hooks for pre/post-trade automation",
+    "Embeddable widget for third-party integration",
+    "Multi-app monorepo with Nx",
+    "Feature-sliced design architecture",
+    "Jotai-based state management"
+  ],
+  "publicApiSurface": [
+    "@cowprotocol/widget-lib - Embeddable swap widget",
+    "@cowprotocol/cow-sdk - CoW Protocol SDK",
+    "CoW Swap Frontend - Main trading interface",
+    "CoW Explorer - Order and trade explorer",
+    "Widget Configurator - Widget customization tool",
+    "Swap Module - Core swap functionality",
+    "Limit Orders Module - Advanced order types",
+    "TWAP Module - Time-weighted orders",
+    "Bridge Module - Cross-chain swaps",
+    "Hooks Module - Trade automation"
+  ]
+}
